@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Vinculando o CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>A Jornada da Estrela Perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-inicio.png" alt="Cena inicial com um céu estrelado">
+            <p>Em uma noite tranquila, enquanto observava as estrelas, você encontra um diário misterioso caído no chão. Nele, um mapa e uma mensagem falam sobre uma antiga estrela caída, guardiã de um poder desconhecido. Sua missão: seguir as pistas e encontrar a estrela perdida.</p>
+            <button class="btn-proximo" data-proximo="1">Seguir para a floresta encantada</button>
+            <button class="btn-proximo" data-proximo="2">Explorar o deserto misterioso</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Na floresta encantada, você encontra um velho sábio que lhe dá um enigma. "O que nasce do fogo mas não pode queimar?"</p>
+            <button class="btn-proximo" data-proximo="3">Responder: A cinza</button>
+            <button class="btn-proximo" data-proximo="4">Responder: A luz</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>No deserto, você encontra uma tempestade de areia que revela uma entrada para um templo subterrâneo. Dentro, uma balança com dois pesos.</p>
+            <button class="btn-proximo" data-proximo="5">Colocar o peso mais leve</button>
+            <button class="btn-proximo" data-proximo="6">Colocar o peso mais pesado</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>O sábio sorri e revela uma passagem secreta. "A estrela está ao norte, onde o céu dança." Você segue rumo ao Ártico.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Ártico</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>O sábio balança a cabeça. "Resposta errada, mas a estrela ainda espera por você." Ele desaparece, e você decide seguir outro caminho.</p>
+            <button class="btn-proximo" data-proximo="2">Ir para o deserto</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>A balança destrava uma porta secreta, levando você a uma câmara cheia de constelações brilhantes. Um mapa indica o Ártico.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Ártico</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>O peso errado ativa uma armadilha! Você escapa por pouco, mas decide tentar outro caminho.</p>
+            <button class="btn-proximo" data-proximo="1">Ir para a floresta</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="img/cenario-final.png" alt="Paisagem do Ártico com uma estrela brilhante no céu">
+            <p>No Ártico, sob a aurora boreal, você encontra a estrela caída. Ela revela um segredo sobre o universo e escolhe você como seu guardião, mudando sua vida para sempre.</p>
+        </div>
+    </main>
+    <script src="script.js"></script> <!-- Vinculando o JavaScript -->
+</body>
+</html>

@@ -1,0 +1,76 @@
+/* Estilos básicos */
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d1b2a;
+    color: #e0e1dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estrutura principal */
+main {
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: #1b263b;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Botões */
+button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Botões específicos */
+.btn-proximo {
+    background-color: #0077b6;
+    color: #e0e1dd;
+}
+
+.btn-proximo:hover {
+    background-color: #00b4d8;
+}
+
+.btn-proximo:active {
+    background-color: #0077b6;
+}
+
+/* Passos */
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
